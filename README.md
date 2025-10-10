@@ -13,16 +13,75 @@ This repository contains code for analyzing molecular fingerprints and predictin
 
 ## Features
 
-- **Conjugation Analysis**: Detect and analyze conjugated systems in molecules
-- **Fingerprint Visualization**: Visualize Morgan and AtomPair fingerprint bits
-- **Similarity Analysis**: Compute Tanimoto similarity matrices with multiple fingerprint types (Morgan, MACCS, AtomPair, PubChem)
-- **Model Training**: Train and evaluate KNN and Random Forest classifiers with cross-validation and SHAP analysis
+- **Molecular_analysis**: Detect and analyze conjugated and aromatic systems in molecules
+- **Rdkit_FP_Visualization**: Visualize Morgan and AtomPair fingerprint bits
+- **Similarity_Analysis**: Compute Tanimoto similarity matrices with multiple fingerprint types (Morgan, MACCS, AtomPair, PubChem)
+- **Train_and_Test**: Train and evaluate KNN and Random Forest classifiers with cross-validation and SHAP analysis
 
-## Installation
-```bash
-# Clone repository
-git clone https://github.com/yourusername/skin-sensitization-prediction.git
-cd skin-sensitization-prediction
+  🧪 Molecular Fingerprint Analysis Toolkit
 
-# Install dependencies
-pip install -r requirements.txt
+This repository contains scripts for training and testing machine learning models, performing molecular similarity analysis, and visualizing chemical fingerprints using RDKit.
+
+🚀 How to Use
+
+You can run all scripts directly in Google Colab using any modern web browser (Chrome, Firefox, Edge, etc.).
+
+1️⃣ Train and Test
+
+Open the notebook and upload your training and testing datasets.
+
+Update the following parameters as needed:
+
+random_state – to control reproducibility
+
+fingerprint_type – choose your preferred molecular fingerprint (e.g., Morgan, Avalon, RDKit)
+
+n_estimators – number of trees for Random Forest
+
+n_neighbors – number of neighbors for KNN
+
+Run the notebook to train and evaluate your models.
+
+2️⃣ Similarity Analysis
+
+Upload the required files when prompted.
+
+Update the following parameters as appropriate:
+
+threshold – similarity threshold value
+
+fp_type – fingerprint type (e.g., Morgan, AtomPair, Avalon)
+
+n_bits – number of bits for the fingerprint vector
+
+For Morgan fingerprints, adjust additional parameters such as radius.
+
+The script calculates molecular similarity scores and visualizes key relationships.
+
+3️⃣ RDKit Fingerprint Visualization
+
+Use this notebook to visualize active fingerprint bits for specific molecules.
+
+You can modify the input SMILES strings to explore different structures.
+
+Supports visualization for Morgan and Atom Pair fingerprints.
+
+4️⃣ Molecular Analysis
+
+Designed for analyzing conjugated and aromatic systems.
+
+Upload your data files (df_train, df_test, etc.) when prompted.
+
+Run the notebook to explore structural and physicochemical characteristics of molecules.
+
+⚙️ Requirements
+
+Python ≥ 3.9
+
+RDKit
+
+pandas
+
+scikit-learn
+
+matplotlib / seaborn
