@@ -6,8 +6,7 @@ Companion code for: *"Optimizing Skin Sensitization Prediction: A Comparative An
 
 **Authors:** Daniel C. Ukaegbu1, Karolina Kopanska1, Peter Ranslow2, Thomas Hartung 1, Alexandra Maertens1*   
 **Affiliation:** 1 Center for Alternatives to Animal Testing (CAAT), Johns Hopkins Bloomberg School of Public Health, Baltimore, Maryland 21205, United States
-
-**Affiliation:**2 Consortium for Environmental Risk Management (CERM), Hallowell, Maine 04347, United States
+**Affiliation:** 2 Consortium for Environmental Risk Management (CERM), Hallowell, Maine 04347, United States
 
 ## Overview
 
