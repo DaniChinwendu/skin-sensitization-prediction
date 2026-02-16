@@ -18,6 +18,8 @@ This repository contains code for analyzing molecular fingerprints and predictin
 - **Rdkit_FP_Visualization**: Visualize Morgan and AtomPair fingerprint bits
 - **Similarity_Analysis**: Compute Tanimoto similarity matrices with multiple fingerprint types (Morgan, MACCS, AtomPair, PubChem)
 - **Train_and_Test**: Train and evaluate KNN and Random Forest classifiers with cross-validation and SHAP analysis
+- **QMRF_Report**: OECD-compliant QSAR Model Reporting Format documenting model development, validation, and performance metrics for regulatory transparency
+- **Applicability_Domain**: Assess prediction reliability using Tanimoto similarity-based AD with t-SNE visualization of chemical space coverage
 
   🧪 Molecular Fingerprint Analysis Toolkit
 
@@ -73,7 +75,15 @@ Designed for analyzing conjugated and aromatic systems.
 
 Upload your data files (df_train, df_test, etc.) when prompted.
 
-Run the notebook to explore structural and physicochemical characteristics of molecules.
+5️⃣ QMRF Report
+Generate OECD-compliant QSAR Model Reporting Format for regulatory transparency.
+Documents model algorithm, training/validation procedures, performance metrics, and applicability domain.
+Supports FAIR principles and model reproducibility.
+
+6️⃣ Applicability Domain
+Assess prediction reliability using Tanimoto similarity-based analysis.
+Calculates similarity threshold from training set (S_T = γ̄ + Zσ, Z=0.5, k=5).
+Visualizes chemical space coverage using t-SNE projection.
 
 ⚙️ Requirements
 
